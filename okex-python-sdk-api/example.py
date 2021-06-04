@@ -18,9 +18,9 @@ def get_timestamp():
 time = get_timestamp()
 
 if __name__ == '__main__':
-    api_key = "81ba7ba6-f65c-41c1-9068-f35550cc4f2c"
-    secret_key = "8B64A39DA13DB36D91F4EEB6ABD542C0"
-    passphrase = "shen8492656"
+    api_key = ""
+    secret_key = ""
+    passphrase = ""
 
     # param use_server_time's value is False if is True will use server timestamp
     # param test's value is False if is True will use simulative trading

@@ -379,9 +379,9 @@ async def unsubscribe_without_login(url, channels, timestamp):
         print(timestamp + f"recv: {res}")
 
 
-api_key = "81ba7ba6-f65c-41c1-9068-f35550cc4f2c"
-secret_key = "8B64A39DA13DB36D91F4EEB6ABD542C0"
-passphrase = "shen8492656"
+api_key = ""
+secret_key = ""
+passphrase = ""
 
 url = 'wss://real.okex.com:8443/ws/v3'
 # url = 'wss://real.okex.com:8443/ws/v3?brokerId=9999'
