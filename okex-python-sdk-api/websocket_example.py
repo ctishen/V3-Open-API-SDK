@@ -379,16 +379,16 @@ async def unsubscribe_without_login(url, channels, timestamp):
         print(timestamp + f"recv: {res}")
 
 
-api_key = ""
-secret_key = ""
-passphrase = ""
+api_key = "81ba7ba6-f65c-41c1-9068-f35550cc4f2c"
+secret_key = "8B64A39DA13DB36D91F4EEB6ABD542C0"
+passphrase = "shen8492656"
 
 url = 'wss://real.okex.com:8443/ws/v3'
 # url = 'wss://real.okex.com:8443/ws/v3?brokerId=9999'
 
 # 现货
 # 用户币币账户频道
-# channels = ["spot/account:USDT"]
+channels = ["spot/account:USDT"]
 # 用户杠杆账户频道
 # channels = ["spot/margin_account:BTC-USDT"]
 # 用户委托策略频道
